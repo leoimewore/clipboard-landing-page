@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+    
+    
+    
+
+    
+}
+
+header {
+    text-align: center;
+}
+   
+header > section {
+    
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+
+} 
+
+
+
+    
+
+.top-image {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+h1 {
+    font-size: 46px;
+    color: #4c545c;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+header >p {
+    font-size: 20px;
+    margin-bottom:2em ;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4c545c;
+    opacity: 100%;
+    
+    
+    
+    
+}
+
+.button-class {
+    border-radius: 28px;
+    width: 250px;
+    height: 56px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: larger;
+    padding: 0.4em;
+    color: #fff;
+    position: relative;
+    top:0px;
+}
+.button-class.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305);
+    border: 2px solid hsl(171, 66%, 44%) ; 
+               
+    
+}
+
+.button-class.mac {
+    background-color: hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 100%, 69%);
+    box-shadow: 0px 10px 20px rgba(141, 106, 224, 0.46) ;
+}
+
+.button-class:active {
+top: 3px;
+}
+   
+h2 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    text-align: center;
+    font-size:xx-large;
+    margin-bottom: 0.5em;
+    color: #4c545c;
+    
+}
+img {
+    max-width: 100%
+}
+
+.clipboard {
+    display:flex;
+    /* outline: 1px dashed green; */
+    gap: 9em;
+    /* max-height: 20%; */
+}
+
+.snippets > p{
+    font-size: 20px;
+    margin-bottom:2em ;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4c545c;
+    text-align: center;
+
+}
+h3 {
+    color: #4c545c;
+    font-size: 20px;
+
+}
+
+h3 > p{
+    color: #4c545c; 
+    font-size: 20px;
+}
+.clipboard > div {
+    /* outline: 1px solid cyan; */
+    /* flex-grow: 1; */
+    
+    
+    
+}
+
+aside {
+    
+    max-width: 30%;
+    /* outline: 2px solid blue; */
+    flex-grow: 99999;
+    
+}
+
+.clipboard-benefits {
+    margin-bottom: 2.5em;
+    font-family: 'Bai Jamjuree', sans-serif ;
+    
+}
+
+.clipboard-benefits.one {
+    margin-top: 5em;
+}
+
+
+.access {
+    text-align: center;
+}
+
+.access > p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    color: #4c545c;
+    font-size: 20px;
+}
+
+.flow > p {
+    text-align: center;
+    margin-bottom: 5em;
+    color: #4c545c;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexitem {
+    max-width: 27%;
+    text-align: center;
+    /* flex-grow: ; */
+    
+}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.cards-image {
+   max-width: 8.5%;
+}
+
+.flexitem.one {
+    flex-grow:9999 ;
+}
+.download {
+    text-align: center;
+}
+
+.download>p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    color: #4c545c;
+    font-size: 20px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* width: 1400px; */
+    height: 100px;
+    /* max-width: 1400px; */
+    margin-top: 6em;
+}
+.flex {
+    /* width: 35%; */
+    
+
+}
+nav {
+    width:55%;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+
+}
+nav ul {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    
+   
+}
+
+li {
+    text-decoration: underline;
+    
+    
+}
+.flex.one {
+    width: 10%;
+    align-self: center;
+    text-align: center;
+    
+}
+.flex.one > img {
+    max-width: 30%;
+}
+
+.media-icons {
+    width: 20%;
+    margin-left: auto;
+    /* align-self: center; */
+
+    
+    
+}
+
+.media-icons > img {
+    margin-left: 0.2em ;
+}
+
+
+@media screen and (max-width:550px ){
+    .button-class {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button-class.ios {
+        margin-bottom: 1em;
+    }
+    .clipboard {
+        display: block;
+        margin-left: auto;
+    }
+    aside, .flexitem{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+    .cards {
+        display: inline-block;
+        
+    }
+    .cards-image {
+        max-width:20%;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        gap:5em;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 500px ;
+       
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+}
+
+.flex.one {
+    /* position: relative;
+    left: 20em */
+    /* align-self: center; */
+    width: 30%;
+}
+
+nav  {
+    margin-left: auto;
+}
+.flex.media-icons {
+    width: 56%;
+    
+    /* position: relative;
+    right: 12em; */
+
+}
+}
+
+
+
